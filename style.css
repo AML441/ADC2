@@ -1,0 +1,170 @@
+body {
+    background-image: linear-gradient(to right, #f6caf5, #c66fc4);
+}
+
+#head {
+    width: 99.7%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    border-style: double;;
+    font-size: 2.2rem;
+}
+
+#box-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#leftColumnOfAwesomeness, #rightColumnOfAwesomeness, #middleColumnOfAwesomeness {
+    border-color: black;
+    border-style: double;
+    display: flex;
+}
+
+#middleColumnOfAwesomeness {
+    width: 60%;
+    flex-direction: column;
+}
+
+#leftColumnOfAwesomeness, #rightColumnOfAwesomeness {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+    width: 20%;
+}
+
+.gif {
+    border-style: double;
+    display: flex;
+    width: 80%;
+    height: 20%;
+    margin: 20px auto 10px auto;
+    
+}
+
+#row1, #row2, #row3, #row4, #row5 {
+    display: flex;
+    flex-direction: row;
+}
+
+#pictureOfMe {
+    height: 30rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 3rem 3rem 3rem 3rem;
+    border-radius: 25px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#introParagraph, #interestsParagraph, #dislikesParagraph, #passionsParagraph {
+    background-color:#f7d8f6;
+}
+
+#introParagraph {
+    border-style: solid;
+    height: 30rem;
+    width: 80rem;
+    margin: 3rem 3rem 3rem 1rem;
+    border-radius: 25px;
+    font-size: 2rem;
+    padding: 15px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#spotifyiFrame {
+    border-style: solid;
+    width: 100rem;
+    height: 30rem;
+    margin: 3rem 2rem 3rem 3rem;
+    border-radius: 25px;
+}
+
+#socials {
+    height: 30rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 3rem 3rem 0rem;
+    border-radius: 25px;
+    gap: 5%;
+}
+
+#socials img {
+    width: 15rem;
+    height: 14.5rem;
+    margin-left: 1.5rem;
+}
+
+
+#interests {
+    width: 30rem;
+    height: 20rem;
+    margin: 3rem 0rem 3rem 3rem;
+    border-radius: 25px;
+}
+
+#interestsParagraph {
+    border-style: solid;
+    width: 100rem;
+    height: 25rem;
+    margin: 3rem 3rem 3rem 3rem;
+    border-radius: 25px;
+    font-size: 1.75rem;
+    padding: 20px; 
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#dislikesParagraph {
+    border-style: solid;
+    width: 100rem;
+    height: 25rem;
+    margin: 3rem 0rem 3rem 3rem;
+    border-radius: 25px;
+    font-size: 1.75rem;
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#Dislikes {
+    width: 30rem;
+    margin: 3rem 3rem 3rem 3rem;
+    border-radius: 25px;
+}
+
+#MyPassions {
+    width: 30rem;
+    height: 20rem;
+    margin: 3rem 0rem 3rem 3rem;
+    border-radius: 25px;
+}
+
+#passionsParagraph {
+    border-style: solid;
+    width: 100rem;
+    height: 30rem;
+    margin: 3rem 3rem 3rem 3rem;
+    border-radius: 25px;
+    font-size:1.75rem;
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
